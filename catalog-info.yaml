@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
+kind: Component
 metadata:
   name: engineer-document
   description: エンジニアドキュメント
@@ -9,3 +9,4 @@ metadata:
 spec:
   type: documentation
   owner: Kawabata Kohei
+  lifecycle: experimental
